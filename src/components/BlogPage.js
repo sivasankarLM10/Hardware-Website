@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
 import img from "../assets/Images/patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg"
-import SocialIcons  from '../subComponents/SocialIcons'
 import PowerButton  from '../subComponents/PowerButton'
 import {Blogs} from '../data/BlogData';
 import BlogComponent from './BlogComponent'
@@ -76,7 +75,6 @@ const BlogPage = () => {
         >
             <Container>
                 <PowerButton />
-                <SocialIcons />
                 <ParticleComponent theme='darkk' />
                 <AnchorComponent number={numbers}/>
                 <bell/>
