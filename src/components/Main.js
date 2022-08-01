@@ -166,10 +166,10 @@ const Main = () => {
                     y:0,
                     transition: { type:'spring', duration: 1.5, delay:1.5}
                 }}
-                whileHover={{scale: 2.1}}
-                whileTap={{scale: 2.9}}
+                whileHover={{scale: 1.1}}
+                whileTap={{scale: 1.9}}
                 >
-                    CATOGORIES
+                    FIELDS
                 </motion.h2>
             </BLOG>
             <WORK to="/work" click={+click}>
